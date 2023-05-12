@@ -115,7 +115,7 @@ button {
 .link::before {
   content: "";
   display: inline;
-  width: 0%;
+  width: 0;
   height: 0.2em;
   position: absolute;
   bottom: 0;
@@ -319,7 +319,7 @@ main {
   color: var(--clr-fg-alt);
 }
 
-.project .link--icon {
+.project {
   margin-left: 0.5em;
 }
 
