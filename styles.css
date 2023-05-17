@@ -455,3 +455,33 @@ main {
   background-position: center;
 }
 
+/* Styles spécifiques pour iPhone */
+@media only screen and (max-device-width: 480px) {
+  .carousel__image {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 150px;
+    scroll-snap-align: center;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .carousel__image_v {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 600px;
+    scroll-snap-align: center;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .carousel__image_v_bis {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 450px;
+    scroll-snap-align: center;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
